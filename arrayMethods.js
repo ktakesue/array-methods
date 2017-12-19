@@ -18,7 +18,7 @@ var bulkNumbers = [5, 5, 6, 6, 9, 9, 2, 2, 2, 5, 2];
 // do your work below!
 
 var nameArray = [];
-    nameArray.push("Kayla", "Takesue");
+    nameArray.push('Kayla', 'Takesue');
 
 genericNumberArray.push(6, 7, 8, 9, 10);
 
@@ -59,6 +59,14 @@ var favoriteFriends = friends.slice(1, 3);
 
 var owesMoney = friends.slice(3, 6);
 
+var monthNameString = monthNames.toString();
 
+var favoriteColor = colors.indexOf('Red');
+
+var favoriteEvenNumber = mixedNums.indexOf(76);
+
+var lastNine = bulkNumbers.lastIndexOf(9);
+
+var lastFive = bulkNumbers.lastIndexOf(5);
 
 
